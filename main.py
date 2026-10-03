@@ -62,3 +62,5 @@ def delete_book(book_id: int):
     del books[book_id]
 
     return {"message": "Book deleted"}
+
+    
